@@ -15,7 +15,7 @@ public class LabsApplicationTests{
 
 	@Test
 	public void contextLoads( ){
-		Course course = new Course( );
+		Course course = null;
 		assertNotNull( course );
 	}
 
